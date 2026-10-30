@@ -1,0 +1,28 @@
+# --- Python environment ---
+py/.venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# --- Upstream code (re-created by py/setup.sh, pinned commit) ---
+py/SpikeYOLO/
+
+# --- Large / downloaded artefacts ---
+py/weights/
+py/assets/
+py/datasets/
+py/runs/
+*.pt
+*.pth
+*.onnx
+*.npz
+*.mem
+
+# --- Course material (local study notes + scripts) ---
+SpikeYOLO_Python_Course.md
+py/course/
+
+# --- Editor / OS ---
+.vscode/
+.idea/
+.DS_Store
