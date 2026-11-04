@@ -22,7 +22,7 @@ fi
   --index-url https://download.pytorch.org/whl/cpu --extra-index-url https://pypi.org/simple \
   "torch==2.4.1" "torchvision==0.19.1"
 "$UV" pip install --python .venv/bin/python \
-  "numpy<2" "opencv-python-headless<4.11" matplotlib pillow pyyaml requests scipy tqdm pandas \
+  "numpy<2" "opencv-python-headless<4.11" av matplotlib pillow pyyaml requests scipy tqdm pandas \
   seaborn psutil py-cpuinfo thop "timm==0.9.16" "spikingjelly==0.0.0.0.14" einops torchinfo \
   dill gdown onnx
 "$UV" pip install --python .venv/bin/python --no-deps -e SpikeYOLO
